@@ -1,7 +1,7 @@
 const http = require('http');
 
 function getMessage() {
-  return 'Hello from DevOps CI/CD Pipeline!';
+  return 'welcome to DevOps CI/CD Pipeline!';
 }
 
 const server = http.createServer((req, res) => {
